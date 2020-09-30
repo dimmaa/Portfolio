@@ -22,8 +22,13 @@
 
 </head>
 <body>
+<div class="navbar navbar navbar-default navbar-fixed-top">
+    @include('partials._nav')
+</div>
     <div id="app">
+
         <main class="py-4">
+
             @yield('content')
         </main>
     </div>

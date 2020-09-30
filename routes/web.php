@@ -17,9 +17,18 @@ Route::get('/', function () {
     return view('home/dims');
 });
 
+Route::get('/my-career', function () {
+    return view('home/car');
+});
+Route::get('/my-skill-set', function () {
+    return view('home/skill');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
 Route::get('set-locale/{locale}', function ($locale) {
     App::setLocale($locale);
     session()->put('locale', $locale);
