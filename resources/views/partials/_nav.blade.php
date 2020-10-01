@@ -3,7 +3,7 @@
         <a class="navbar-brand text-primary" href="#">Dimma</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-lg-5">
-                <li class="nav-item"><a class="nav-link" href="#">{{__('nav.ca')}} </a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-anchor="#highlights">{{__('nav.ca')}} </a></li>
                 <li class="nav-item"><a class="nav-link" href="#">{{__('nav.sk')}} </a></li>
                 <li class="nav-item"><a class="nav-link" href="#">{{__('nav.ed')}}</a></li>
                 <li class="nav-item dropdown no-caret">
@@ -30,3 +30,12 @@
         </div>
     </div>
 </nav>
+<script>
+    $('[data-anchor]').click(function(e) {
+        e.preventDefault();
+        var goToAnchor = $(this).attr("data-anchor");
+        $('html, body').animate({
+            scrollTop: $(goToAnchor).offset().top
+        }, 1000);
+    });
+</script>
