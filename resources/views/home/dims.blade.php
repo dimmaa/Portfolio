@@ -23,7 +23,7 @@
                 <div class="page-header-content">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-xl-8 col-lg-10 text-center" data-aos="fade">
+                            <div class="col-xl-8 col-lg-10 text-center" style="padding-top: 90px; "data-aos="fade">
                                 <h1 class="page-header-title">{{__('dims.title')}}</h1>
                                 <picture>
                                     <source srcset="https://avatars2.githubusercontent.com/u/18397124?s=400&u=af81a852ee422154cbeb8fd768e7f0be5cca7efc&v=4" type="image/svg+xml">
@@ -42,10 +42,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0" /></svg>
                 </div>
             </header>
-            <section class="bg-light pb-10 pt-1">
+            <section class="bg-light pb-10 pt-1" id="about">
                 <div class="container">
-                    <div class="profile">
-                        <img src="../../../storage/images/IMG_20200223_013742.jpg" alt="">
+                    <div class="profile" style="padding-top: 300px;">
+                        <div class="row justify-content-center">
+                            <h1 class="page-header-title">{{__('dims.about')}}</h1>
+                            <p>{{__('dims.profile')}}</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -155,25 +158,26 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                    <div class="page-header-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12" data-aos="fade">
+                                    <h1 class="em-title">{{__('car.employer2')}}</h1>
+                                    <p class="em-defined">{{__('car.ex-em2')}}</p>
+                                    <p class="ex-daily">{{__('car.ex-em-daily2')}}</p>
+                                    <p class="page-header-text">{{__('car.learned2')}}</p>
+                                    <p class="page-header-text">{{__('car.learned-expand2')}}</p>
+                                    <p class="page-header-text">{{__('car.learn-want2')}}</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="svg-border-rounded text-dark">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0" /></svg>
                 </div>
-                <div class="page-header-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12" data-aos="fade">
-                                <h1 class="em-title">{{__('car.employer2')}}</h1>
-                                <p class="em-defined">{{__('car.ex-em2')}}</p>
-                                <p class="ex-daily">{{__('car.ex-em-daily2')}}</p>
-                                <p class="page-header-text">{{__('car.learned2')}}</p>
-                                <p class="page-header-text">{{__('car.learned-expand2')}}</p>
-                                <p class="page-header-text">{{__('car.learn-want2')}}</p>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
 
 
             </section>

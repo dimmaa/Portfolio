@@ -11,10 +11,10 @@ return [
     ''=>"",
     'employer2'=>"04-2017 t/m 10-2020, De Dwarse Anjelier",
     'ex-em2'=>"De Dwarse Anjelier is een kleding winkel in de Jordaan,",
-    'ex-em-daily2'=>"Samen met mijn moeder ben ik mede-eigenaar van een kleine boutique in de jordaan. Het is altijd een droom geweest van mijn moeder om haar eigen kleding winkel te runnen. In 2017 kregen we de mogelijkheid om een winkelruimte over te nemen. Deze hebben we zelf verbouwt en opgeknapt",
+    'ex-em-daily2'=>"Samen met mijn moeder ben ik mede-eigenaar van een kleine kleding boutique in de jordaan. Het is altijd een droom geweest van mijn moeder om haar eigen kleding winkel te runnen. In 2017 kregen we de mogelijkheid om een winkelruimte over te nemen. Deze hebben we zelf verbouwt en opgeknapt",
     'learned2'=>"En zo begon het avontuur.",
     'learned-expand2'=>"de dagelijkse werkzaamheden bestaan natuurlijk uit verkopen en onderhandelen, ",
     'work2'=>"Ik ben nog steeds wel betrokken bij de winkel en probeer mijn moeder te ondersteunen waar het kan.",
-    'learn-want2'=>"Producten aantrekkelijk presenteren, assortimenten samenstellen, en goede bussiness strategieen moesten uit eigen creativiteit gemanifesteerd worden. Dit was geen makkelijke opgave maar wel een extreem leuke uitdaging. He",
+    'learn-want2'=>"Producten aantrekkelijk presenteren, assortimenten samenstellen, en goede bussiness strategieen moesten uit eigen creativiteit gemanifesteerd worden. Dit was geen makkelijke opgave maar wel een extreem leuke uitdaging. In deze periode heb ik geleerd om meer naar het grotere plaatje te kijken en om gewoon te doen, leren van je fouten en verder gaan. ",
     ''=>"",
 ];

@@ -2,8 +2,8 @@
 
 return [
     'ca'=>"My career",
-    'sk'=>"My Skills",
-    'ed'=>"Education",
+    'sk'=>"About me",
+    'ed'=>"Contact me",
     'la'=>"Choose your Language",
     ''=>"",
     ''=>"",
