@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
     <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,7 +20,7 @@
         <main>
             <nav class="navbar navbar-marketing navbar-expand-lg bg-dark navbar-light navbar-preview fixed-top">
                 <div class="container">
-                    <a class="navbar-brand text-primary" href="#"><span style="color: #ffffff;">Dimma</span></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <a class="navbar-brand text-primary" href="#"><span style="color: #ffffff;">Daemien</span></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
                     <div  class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto mr-lg-5" >
                             <li class="nav-item"><a style="color: #ffffff;" class="nav-link" href="#" data-anchor="#about">{{__('nav.sk')}} </a></li>
@@ -130,14 +128,14 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="size: auto; ">
-                                <img class="d-block w-100" src="https://lh3.googleusercontent.com/9PTLz2InSxaRrp07tUUjUgr42KZWNEldvo__sNgs5qGnVgcDbHge6hV_y0Xk-WBkmhsg" alt="First slide" style="height: 100%">
+                            <div class="carousel-item active" style="height: 60vh; ">
+                                <img class="d-block w-100" style="height: 100%;"   src="https://lh3.googleusercontent.com/9PTLz2InSxaRrp07tUUjUgr42KZWNEldvo__sNgs5qGnVgcDbHge6hV_y0Xk-WBkmhsg" alt="First slide" style="height: 100%">
                             </div>
-                            <div class="carousel-item" style="size: auto;">
-                                <img class="d-block w-100" src="https://www.marketing-communicatie-vacatures.nl/uploads/afbeeldingen/vacatures/Bedrijfsprofielen/ProActive%20Software%20Nederland/ProActive%20Software%20Nederland%20banner1.jpg" alt="Second slide" style="height: 100%; border-radius: 20px;">
+                            <div class="carousel-item" style="height: 60vh;">
+                                <img class="d-block w-100" style="height: 100%;"  src="https://www.marketing-communicatie-vacatures.nl/uploads/afbeeldingen/vacatures/Bedrijfsprofielen/ProActive%20Software%20Nederland/ProActive%20Software%20Nederland%20banner1.jpg" alt="Second slide" style="height: 100%; border-radius: 20px;">
                             </div>
-                            <div class="carousel-item" style="size: auto;">
-                                <img class="d-block w-100" src="https://docplayer.nl/docs-images/91/107738640/images/7-0.jpg" alt="Third slide" style="height: 100%">
+                            <div class="carousel-item" style="height: 60vh;">
+                                <img class="d-block w-100" style="height: 100%;" src="https://docplayer.nl/docs-images/91/107738640/images/7-0.jpg" alt="Third slide" style="height: 100%">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -180,7 +178,7 @@
                                 <img class="d-block w-100" style="height: 100%;" src="https://scontent-amt2-1.cdninstagram.com/v/t51.2885-15/e35/28150951_2010479619186899_5334565843688751104_n.jpg?_nc_ht=scontent-amt2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=VZgcqUKpVeYAX_08Nl_&_nc_tp=18&oh=48d2ed80c4622c03892df805464847bc&oe=5F9DDECC" alt="Second slide">
                             </div>
                             <div class="carousel-item justify-content-center justify-content-lg-center"style="height: 80vh;" >
-                                <img class="d-block w-100" style="height: 100%;" src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/26864801_553289921730574_5928909851970240512_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=M1bnTBDG1eAAX-XAMYw&_nc_tp=18&oh=ccee3965c054997afc6e737b494be42e&oe=5FA08843" alt="Third slide">
+                                <img class="d-block w-100"style="height: 100%;" src="https://scontent-ams4-1.cdninstagram.com/v/t51.2885-15/e35/26864801_553289921730574_5928909851970240512_n.jpg?_nc_ht=scontent-ams4-1.cdninstagram.com&_nc_cat=110&_nc_ohc=M1bnTBDG1eAAX-XAMYw&_nc_tp=18&oh=ccee3965c054997afc6e737b494be42e&oe=5FA08843" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -346,8 +344,5 @@
 
 <script src="js/sb-customizer.js"></script>
 <sb-customizer project="sb-ui-kit-pro"></sb-customizer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
