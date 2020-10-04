@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0312754f-6fbe-4ed8-b55d-3cdb5d63ca94" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,9 +135,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -159,13 +168,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2675" y="479" width="399" height="156" key="NewPhpFileDialog" timestamp="1601415827919">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1601833682343">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601833682343" />
+    <state x="755" y="494" width="399" height="156" key="NewPhpFileDialog" timestamp="1601836042477">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="755" y="494" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601836042477" />
     <state x="2675" y="479" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1601415827919" />
     <state x="2369" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1601415663512">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2369" y="188" width="1022" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1601415663512" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1601836459776">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1601836459776" />
   </component>
 </project>

@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Route::get('contact-us', 'App\Http\Controllers\ContactController@getContact');
+//Route::post('contact-us', 'App\Http\Controllers\ContactController@saveContact');
+
+
+Route::get('/email', 'App\Http\Controllers\EmailController@create');
+Route::post('/email', 'App\Http\Controllers\EmailController@sendEmail')->name('send.email');
+
+
 Route::get('/', function () {
     return view('home/dims');
 });

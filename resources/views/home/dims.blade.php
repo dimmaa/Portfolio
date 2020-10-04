@@ -225,90 +225,180 @@
         <!--Section description-->
         <p class="text-center w-responsive mx-auto mb-5">Als u vragen heeft, neemt u dan contact op door een mailtje te versturen naar "daemienho@gmail.com" een telefoontje is wel sneller.</p>
 
-        <div class="row">
 
-            <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
-                                <label for="name" class="">Uw naam</label>
-                            </div>
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card card-user">
+                        <div class="card-header">
+                            <h5 class="card-title">Contact Us</h5>
                         </div>
-                        <!--Grid column-->
+                        <div class="card-body">
+                            @if(Session::has('success'))
+                                <div class="alert alert-success">
+                                    {{ Session::get('success') }}
+                                </div>
+                            @endif
 
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                            <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
-                                <label for="email" class="">Uw email</label>
-                            </div>
+                            <form method="post" action="contact-us">
+                                {{csrf_field()}}
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Name </label>
+                                            <input type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Name" name="name">
+                                            @error('name')
+                                            <span class="invalid-feedback" role="alert">
+                           <strong>{{ $message }}</strong>
+                       </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Email </label>
+                                            <input type="text" class="form-control @error('email') is-invalid @enderror" placeholder="Email" name="email">
+                                            @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                           <strong>{{ $message }}</strong>
+                       </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Phone Number </label>
+                                            <input type="text" class="form-control @error('phone_number') is-invalid @enderror" placeholder="Phone Number" name="phone_number">
+                                            @error('phone_number')
+                                            <span class="invalid-feedback" role="alert">
+                           <strong>{{ $message }}</strong>
+                       </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Subject </label>
+                                            <input type="text" class="form-control @error('subject') is-invalid @enderror" placeholder="Subject" name="subject">
+                                            @error('subject')
+                                            <span class="invalid-feedback" role="alert">
+                           <strong>{{ $message }}</strong>
+                       </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label> Message </label>
+                                            <textarea class="form-control textarea @error('message') is-invalid @enderror" placeholder="Message" name="message"></textarea>
+                                            @error('message')
+                                            <span class="invalid-feedback" role="alert">
+                           <strong>{{ $message }}</strong>
+                       </span>
+                                            @enderror
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="update ml-auto mr-auto">
+                                        <button type="submit" class="btn btn-primary btn-round">Send</button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <!--Grid column-->
-
                     </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
-                                <label for="subject" class="">Onderwerp</label>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Grid row-->
-
-                    <!--Grid row-->
-                    <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-12">
-
-                            <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                <label for="message">Uw bericht</label>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!--Grid row-->
-
-                </form>
-
-                <div class="text-center text-md-left">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Verstuur</a>
                 </div>
-                <div class="status"></div>
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-3 text-center">
-                <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>Ijmuiden, 1972 TP Nederland</p>
-                    </li>
-
-                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                        <p>+ 316 112 87 858</p>
-                    </li>
-
-                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>daemienho@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
-            <!--Grid column-->
-
         </div>
+
+
+
+
+
+{{--        <div class="row">--}}
+
+{{--            <!--Grid column-->--}}
+{{--            <div class="col-md-9 mb-md-0 mb-5">--}}
+{{--                <form id="contact-form" name="contact-form" action="mail.php" method="POST">--}}
+
+{{--                    <!--Grid row-->--}}
+{{--                    <div class="row">--}}
+
+{{--                        <!--Grid column-->--}}
+{{--                        <div class="col-md-6">--}}
+{{--                            <div class="md-form mb-0">--}}
+{{--                                <input type="text" id="name" name="name" class="form-control">--}}
+{{--                                <label for="name" class="">Uw naam</label>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!--Grid column-->--}}
+
+{{--                        <!--Grid column-->--}}
+{{--                        <div class="col-md-6">--}}
+{{--                            <div class="md-form mb-0">--}}
+{{--                                <input type="text" id="email" name="email" class="form-control">--}}
+{{--                                <label for="email" class="">Uw email</label>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!--Grid column-->--}}
+
+{{--                    </div>--}}
+{{--                    <!--Grid row-->--}}
+
+{{--                    <!--Grid row-->--}}
+{{--                    <div class="row">--}}
+{{--                        <div class="col-md-12">--}}
+{{--                            <div class="md-form mb-0">--}}
+{{--                                <input type="text" id="subject" name="subject" class="form-control">--}}
+{{--                                <label for="subject" class="">Onderwerp</label>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <!--Grid row-->--}}
+
+{{--                    <!--Grid row-->--}}
+{{--                    <div class="row">--}}
+
+{{--                        <!--Grid column-->--}}
+{{--                        <div class="col-md-12">--}}
+
+{{--                            <div class="md-form">--}}
+{{--                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>--}}
+{{--                                <label for="message">Uw bericht</label>--}}
+{{--                            </div>--}}
+
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <!--Grid row-->--}}
+
+{{--                </form>--}}
+
+{{--                <div class="text-center text-md-left">--}}
+{{--                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Verstuur</a>--}}
+{{--                </div>--}}
+{{--                <div class="status"></div>--}}
+{{--            </div>--}}
+{{--            <!--Grid column-->--}}
+
+{{--            <!--Grid column-->--}}
+{{--            <div class="col-md-3 text-center">--}}
+{{--                <ul class="list-unstyled mb-0">--}}
+{{--                    <li><i class="fas fa-map-marker-alt fa-2x"></i>--}}
+{{--                        <p>Ijmuiden, 1972 TP Nederland</p>--}}
+{{--                    </li>--}}
+
+{{--                    <li><i class="fas fa-phone mt-4 fa-2x"></i>--}}
+{{--                        <p>+ 316 112 87 858</p>--}}
+{{--                    </li>--}}
+
+{{--                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>--}}
+{{--                        <p>daemienho@gmail.com</p>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--            <!--Grid column-->--}}
+
+{{--        </div>--}}
 
     </section>
     <!--Section: Contact v.2-->
