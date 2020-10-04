@@ -80,6 +80,8 @@
                         <div class="row justify-content-center">
                             <h1 class="page-header-title">{{__('dims.about')}}</h1>
                             <p>{{__('dims.profile')}}</p>
+                            <p>{{__('dims.profile2')}}</p>
+                            <p>{{__('dims.profile3')}}</p>
                         </div>
                     </div>
                 </div>
@@ -229,7 +231,19 @@
 
             <!--Grid column-->
             <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                @if(count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>{{$error}}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+
+                @endif
+                <form id="contact-form" name="contact-form" action="{{url('sendemail/send')}}" method="post">
+                    {{csrf_field()}}
 
                     <!--Grid row-->
                     <div class="row">
@@ -284,7 +298,8 @@
                 </form>
 
                 <div class="text-center text-md-left">
-                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Verstuur</a>
+                    <input type="submit" name="send" value="Send" class="btn btn-primary">
+
                 </div>
                 <div class="status"></div>
             </div>

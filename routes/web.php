@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home/dims');
 });
+Route::get('/email', function() {
+    Mail::to('email@email.com')->send(new \App\Mail\ContactMail());
+    return new \App\Mail\ContactMail();
+});
 
 Route::get('/my-career', function () {
     return view('home/car');
@@ -23,6 +28,9 @@ Route::get('/my-career', function () {
 Route::get('/my-skill-set', function () {
     return view('home/skill');
 });
+
+Route::get('/sendemail', 'SendEmailController@index');
+Route::post('/sendemail/send', 'SendEmailController@send');
 
 Auth::routes();
 

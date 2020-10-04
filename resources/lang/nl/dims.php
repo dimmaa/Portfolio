@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 return [
     'title'=>"Junior Developer",
@@ -10,6 +10,8 @@ return [
     'sk'=>"Skills",
     'sk-expand'=>"Click on the button below to find out what skills are in my arsenal",
     'pic'=>"This is me in 2016 with a pirate hat",
-    'profile'=>"Ik ben Daemien. 29 jaar geleden in Amsterdam werd ik geboren. Ik heb vroeger veel gesport en het liefst sport ik als ik daarvan zou kunnen leven. misschien is Esports een optie... Mijn hobbies zijn: sporten, gamen, schaken, racen, animes kijken, informatie verzamelen en nog veel meer waar ik nu niet op kan komen of niet gepast is om te vertellen in je portfolio. Ik ben dagelijks te vinden achter mijn computer, vaak tot in de late uren. Mijn ultieme doel in het leven zou zijn een vrije wereld creeren voor iedereen. maar stapje voor stapje.. get a job first! andere persoonlijke doelen die heb zijn: spaans leren, kitesurfen, viool leren, technische kennis opdoen en ooit een boek schrijven. Voor de rest.. Ik houd ook van dieren. Ik heb een poes als huisdier. Ik ben single en heb geen kinderen en ik woon momenteel in Ijmuiden.    ",
+    'profile'=>"Ik ben Daemien, 29 jaar geleden in Amsterdam geboren. Ik heb vroeger veel gesport en het liefst sport ik als ik daarvan zou kunnen leven. Misschien is Esports een optie.. Maar helaas ben ik niet een van de lucky ones. Mijn hobby's zijn: sporten, gamen, schaken, racen, animes kijken, lezen en nog veel meer. Maar daar zou ik je in real life verder over moeten vertellen...",
+    'profile2'=>"Ik ben dagelijks te vinden achter mijn computer, vaak tot in de late uren. Mijn ultieme doel in het leven zou zijn om een vrije wereld te creëren voor iedereen. Maar stapje voor stapje.. eerst een killer-programmeur worden! Andere persoonlijke doelen die heb zijn: Spaans leren spreken, kitesurfen, viool leren spelen en ooit een boek schrijven. ",
+    'profile3'=>"Voor de rest.. Ik ben dieren gek! Het liefst had ik een hele dierentuin, maar ik hou het bescheiden en heb alleen een poes: Pussy Ho.Ik ben single, kinderloos en woon momenteel in IJmuiden.",
     'about'=>"Wie ben ik?",
 ];
