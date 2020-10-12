@@ -225,7 +225,7 @@
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Neem Contact op met mij</h2>
         <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">Als u vragen heeft, neemt u dan contact op door een mailtje te versturen naar "daemienho@gmail.com" een telefoontje is wel sneller.</p>
+        <p class="text-center w-responsive mx-auto mb-5">Als u vragen heeft, neemt u dan contact op door een mailtje te versturen naar <a href="mailto:daemienho@gmail.com">"daemienho@gmail.com"</a> een telefoontje is wel sneller.</p>
 
         <div class="row">
 
@@ -308,8 +308,8 @@
             <!--Grid column-->
             <div class="col-md-3 text-center">
                 <ul class="list-unstyled mb-0">
-                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                        <p>Ijmuiden, 1972 TP Nederland</p>
+                    <li><a href="https://goo.gl/maps/yX8oQ7g9tfRGLrLJ8"><i class="fas fa-map-marker-alt fa-2x"></i></a>
+                        <p>IJmuiden, 1972 TP Nederland</p>
                     </li>
 
                     <li><i class="fas fa-phone mt-4 fa-2x"></i>
@@ -317,7 +317,7 @@
                     </li>
 
                     <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                        <p>daemienho@gmail.com</p>
+                        <p><a href="mailto:daemienho@gmail.com">daemienho@gmail.com</p></a>
                     </li>
                 </ul>
             </div>
