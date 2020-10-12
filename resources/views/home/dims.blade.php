@@ -131,13 +131,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active" style="height: 60vh; ">
-                                <img class="d-block w-100" style="height: 100%;"   src="https://lh3.googleusercontent.com/9PTLz2InSxaRrp07tUUjUgr42KZWNEldvo__sNgs5qGnVgcDbHge6hV_y0Xk-WBkmhsg" alt="First slide" style="height: 100%">
+                                <img class="d-block w-100 responsive" style="height: 100%;"   src="https://lh3.googleusercontent.com/9PTLz2InSxaRrp07tUUjUgr42KZWNEldvo__sNgs5qGnVgcDbHge6hV_y0Xk-WBkmhsg" alt="First slide" style="height: 100%">
                             </div>
                             <div class="carousel-item" style="height: 60vh;">
-                                <img class="d-block w-100" style="height: 100%;"  src="https://www.marketing-communicatie-vacatures.nl/uploads/afbeeldingen/vacatures/Bedrijfsprofielen/ProActive%20Software%20Nederland/ProActive%20Software%20Nederland%20banner1.jpg" alt="Second slide" style="height: 100%; border-radius: 20px;">
+                                <img class="d-block w-100 responsive" style="height: 100%;"  src="https://www.marketing-communicatie-vacatures.nl/uploads/afbeeldingen/vacatures/Bedrijfsprofielen/ProActive%20Software%20Nederland/ProActive%20Software%20Nederland%20banner1.jpg" alt="Second slide" style="height: 100%; border-radius: 20px;">
                             </div>
                             <div class="carousel-item" style="height: 60vh;">
-                                <img class="d-block w-100" style="height: 100%;" src="https://docplayer.nl/docs-images/91/107738640/images/7-0.jpg" alt="Third slide" style="height: 100%">
+                                <img class="d-block w-100 responsive" style="height: 100%;" src="https://docplayer.nl/docs-images/91/107738640/images/7-0.jpg" alt="Third slide" style="height: 100%">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -198,10 +198,8 @@
                                 <div class="col-lg-12" data-aos="fade">
                                     <h1 class="em-title">{{__('car.employer2')}}</h1>
                                     <p class="em-defined">{{__('car.ex-em2')}}</p>
-                                    <p class="ex-daily">{{__('car.ex-em-daily2')}}</p>
                                     <p class="page-header-text">{{__('car.learned2')}}</p>
-                                    <p class="page-header-text">{{__('car.learned-expand2')}}</p>
-                                    <p class="page-header-text">{{__('car.learn-want2')}}</p>
+                                    <p class="page-header-text">{{__('car.work2')}}</p>
                                 </div>
 
                             </div>
